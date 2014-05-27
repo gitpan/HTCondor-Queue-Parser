@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution HTCondor-Queue-Parser,
-version 0.01:
+version 0.02:
 
   parses multible schedds condor_q output, so you don't have to. Serves output in many formats. 
 

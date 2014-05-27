@@ -132,6 +132,7 @@ HTCondor::Queue::Parser
   }
 
 =head1 INITIAL RELEASE WARNING
+
 This is the first 'working' version that was decent enough to upload to CPAN. You might find problems as 
 it was not fully reviewed or tested by other people. Reviews and bug reports are welcome at :
 
@@ -190,6 +191,7 @@ Converted, simpler XML from this module looks like more :
 	# $cparser->{'schedds_map'}  will be then loaded with a key per schedd, which contains the {'xml'} already
 
 =head2 convert_to_compatible_xml
+
 Before this method runs, {xml} will contain the standard condor XML :
 
 	<classads><c>   <a n="MyType"><s>Job</s></a>  
@@ -214,10 +216,12 @@ Maybe the most useful way to use it is :
 
 =head1 SUPPORT
 
-Find support available at https://github.com/samircury/condor4web or the CPAN's tracking system
+You will have more luck at https://github.com/samircury/HTCondor--Queue--Parser/issues 
+
+The CPAN's tracking system is also an option.
 
 =head1 AUTHOR
 
-Copyright 2012 Samir Cury.
+Copyright 2014 Samir Cury.
 
 =cut
