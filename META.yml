@@ -15,5 +15,6 @@ name: HTCondor-Queue-Parser
 requires:
   File::Slurp: 0
   JSON::XS: 0
+  Test::More: 0
   XML::Simple: 0
-version: 0.03
+version: 0.04
